@@ -32,8 +32,8 @@ body {
   background: #98bdef;
   text-shadow: none; }
 
-.reveal .slides > section,
-.reveal .slides > section > section {
+.reveal .slides section,
+.reveal .slides section > section {
   line-height: 1.3;
   font-weight: inherit; }
 
@@ -210,10 +210,12 @@ body {
   border-bottom: none; }
 
 .reveal sup {
-  vertical-align: super; }
+  vertical-align: super;
+  font-size: smaller; }
 
 .reveal sub {
-  vertical-align: sub; }
+  vertical-align: sub;
+  font-size: smaller; }
 
 .reveal small {
   display: inline-block;
@@ -347,3 +349,9 @@ pre.saslint {
 
 /* carry out styles for non-0border images */
 /* specify style via markdown */
+/*********************************************
+ * PRINT BACKGROUND
+ *********************************************/
+@media print {
+  .backgrounds {
+    background-color: #fff; } }
