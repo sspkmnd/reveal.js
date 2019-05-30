@@ -1599,3 +1599,22 @@ body {
   justify-content: center;
 }
 
+#container-inline-logo-sugg {
+  width: 75px;
+  height: 75px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  /* https://codepen.io/nikolaygit/pen/GcDvd */
+  vertical-align: middle;
+}
+
+#container-inline-logo-boemska {
+  height: 75px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  /* https://codepen.io/nikolaygit/pen/GcDvd */
+  vertical-align: middle;
+}
+
